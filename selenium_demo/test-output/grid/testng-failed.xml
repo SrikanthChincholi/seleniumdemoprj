@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [grid]">
+  <test thread-count="3" parallel="tests" name="test3(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="selenium_grid.EdgeGrid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setBrowser"/>
+          <include name="getTitle1"/>
+        </methods>
+      </class> <!-- selenium_grid.EdgeGrid -->
+    </classes>
+  </test> <!-- test3(failed) -->
+</suite> <!-- Failed suite [grid] -->

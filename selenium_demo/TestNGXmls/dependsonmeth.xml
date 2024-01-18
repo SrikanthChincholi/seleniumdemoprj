@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="test">
+	<test name="test1">
+		<classes>
+			<class name="testpack.DependsOnMethods" />
+			<methods>
+				<include name="test1" />
+				<include name="test2" />
+			</methods>
+		</classes>
+	</test>
+</suite>

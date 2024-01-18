@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="test">
+	<test name="test1">
+		<groups>
+			<run>
+				<include name="test1" />
+				<include name="test2" />
+				<include name="test3" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testpack.DependsOnGroups" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testsuite">
+	<test name="test">
+		<classes>
+			<class name="testngprgms.TestngAnnotations" />
+			<class name="testngprgms.TestngAnnotations2" />
+			<class name="testngprgms.TestngAnnotations3" />
+		</classes>
+	</test>
+</suite>
